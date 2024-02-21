@@ -21,16 +21,12 @@
             <a href="#about">about</a>
             <a href="#courses">courses</a>
             <a href="#gallery">gallery</a>
+            <a href="#login">login</a>
             <a href="#contact">contact</a>
 
+            
+               
         </nav>
-
-        <div class="icons">
-            <i class="fas fa-music" id="fa-music"></i>
-            <i class="fas fa-heart" id="fa-heart"></i>
-
-        </div>
-
     </header>
 
     <!--header section ends-->
@@ -305,6 +301,76 @@
 <!--Gallery section ends-->
 
 
+<!---login section starts-->
+<section class="login" id="login">
+    
+   <div class="wrapper">
+    <span class="icon-close"><ion-icon name="close">    
+    </ion-icon></span>
+     <div class="form-box login">
+        <h2>Login</h2>
+        <form action="#">
+            <div class="input-box">
+             <span class="icon"><ion-icon name="mail"></ion-icon></span>
+             <input type="email" required>
+              <label>Email</label>
+            </div>
+          <div class="input-box">
+             <span class="icon"><ion-icon name="lock-open"></ion-icon></span>
+             <input type="password" required>
+             <label>Password</label>
+          </div>
+          <div class="remember-forgot">
+            <label><input type="checkbox">
+            Remember me</label>
+            <a href="#">Forgot Password?</a>
+          </div>
+          <button type="submit" class="btn">Login</button>
+          <div class="login-register">
+            <p>Don't have an account?<a href="#" class="register-link">Register</a></p>
+          </div>
+       </form>
+      </div>
+
+
+
+
+      
+      <div class="form-box register">
+        <h2>Registration</h2>
+        <form action="#">
+            <div class="input-box">
+                <span class="icon">
+                    <ion-icon name="person-add">
+                    </ion-icon>
+                </span>
+                <input type="email" required>
+                 <label>Username</label>
+               </div>
+            <div class="input-box">
+             <span class="icon"><ion-icon name="mail"></ion-icon></span>
+             <input type="email" required>
+              <label>Email</label>
+            </div>
+          <div class="input-box">
+             <span class="icon"><ion-icon name="lock-open"></ion-icon></span>
+             <input type="password" required>
+             <label>Password</label>
+          </div>
+          <div class="remember-forgot">
+            <label><input type="checkbox">I agree to the terms & conditions</label>
+           
+          </div>
+          <button type="submit" class="btn">Register</button>
+          <div class="login-register">
+            <p>Already have an account?<a href="#" class="login-link">Login</a></p>
+          </div>
+       </form>
+      </div>
+    </div>
+</section>
+<!--login section ends-->
+
 <!---contact section starts-->
  
 <section class="contact" id="contact">
@@ -346,6 +412,11 @@
 
 
 <!---contact section ends-->
+
+
+
+
+<!------->
 
 <!---footer section starts-->
 <section class="footer">
@@ -410,5 +481,7 @@
 
 
 <script src="script.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
