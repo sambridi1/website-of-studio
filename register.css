@@ -1,0 +1,93 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+
+}
+
+.background {
+    background-image: url('../images/loginback.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.box {
+    /* background-color: rgba(230, 230, 230, 0.5);  */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
+    width: 300px;
+    margin: auto;
+    margin-top: 200px;
+    background-color: #fff;
+}
+
+.container {
+    text-align: center;
+}
+
+.container h2 {
+    margin-bottom: 20px;
+}
+
+.container input[type="text"],
+.container input[type="password"],
+.container input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0080ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.container button:hover {
+    background-color: #4040ff;
+}
+
+.container p {
+    margin-top: 15px;
+}
+
+.container p a {
+    color: #4040ff;
+    text-decoration: none;
+}
+
+.container p a:hover {
+    text-decoration: underline;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+}
+
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+    .container {
+        width: 95%;
+    }
+    .box .container p{
+        width: 80%;
+        font-size: 10px;
+    }
+}

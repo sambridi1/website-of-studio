@@ -1,0 +1,120 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.background {
+    background-image: url('../images/loginback.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.box {
+    /* background-color: rgba(230, 230, 230, 0.3);  */
+    padding: 50px;
+    border-radius: 10px;
+    border-color: black;
+    width: 300px; 
+    margin: auto; 
+    margin-top: 200px; 
+    background-color: #fff;
+}
+
+.container {
+    text-align: center;
+}
+
+.container h2 {
+    margin-bottom: 20px;
+}
+
+.container input[type="text"],
+.container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0080ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.container button:hover {
+    background-color: #4040ff;
+}
+
+.container p {
+    margin-top: 15px;
+}
+
+.container p a {
+    color: #0080ff;
+    text-decoration: none;
+}
+
+.container p a:hover {
+    text-decoration: underline;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* For small screens (e.g., phones) */
+@media (max-width: 600px) {
+    .box {
+        width: 80%; /* Adjust width to be more flexible */
+        padding: 20px; /* Reduce padding for smaller screens */
+        margin-top: 100px; /* Adjust margin for top */
+    }
+}
+
+/* For medium to large screens */
+@media (min-width: 601px) and (max-width: 1200px) {
+    .box {
+        width: 60%; /* Adjust width to be more flexible */
+        padding: 30px; /* Adjust padding */
+        margin-top: 150px; /* Adjust margin for top */
+    }
+}
+
+/* For extra-large screens */
+@media (min-width: 1201px) {
+    .box {
+        width: 60%; /* Adjust width to be more flexible */
+        padding: 50px; /* Adjust padding */
+        margin-top: 200px; /* Default margin for larger screens */
+    }
+}
+
+/* Adjust input fields for smaller screens */
+@media (max-width: 600px) {
+    .container input[type="text"],
+    .container input[type="password"] {
+        width: 100%; /* Full width for smaller screens */
+    }
+}
